@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/glide_static_webp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="glide_static_webp" />
+
+    <Button
+        android:id="@+id/glide_dynamic_webp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="glide_dynamic_webp" />
+
+    <Button
+        android:id="@+id/glide_gif_webp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="glide_gif_webp" />
+
+    <Button
+        android:id="@+id/glide_clear_disCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="glide_clear_discache" />
+
+    <Button
+        android:id="@+id/glide_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="glide_clear" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
